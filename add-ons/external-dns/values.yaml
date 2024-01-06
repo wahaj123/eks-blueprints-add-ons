@@ -2,5 +2,6 @@ external-dns:
   serviceAccount:
     create: false
     name: "external-dns-sa"
-    annotations: ""
+    annotations: 
+      eks.amazonaws.com/role-arn: arn:aws:iam::569023477847:role/eksctl-hub-control-plane-addon-iamserviceacco-Role1-nMbJhc4sQNLs
   provider: "aws"
