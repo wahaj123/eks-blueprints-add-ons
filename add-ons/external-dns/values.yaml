@@ -2,4 +2,5 @@ external-dns:
   serviceAccount:
     create: false
     name: "external-dns-sa"
+    annotations: ""
   provider: "aws"
