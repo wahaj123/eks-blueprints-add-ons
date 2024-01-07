@@ -4,6 +4,5 @@ external-dns:
     name: "external-dns-sa"
     annotations:
       eks.amazonaws.com/role-arn: arn:aws:iam::569023477847:role/eksctl-hub-control-plane-addon-iamserviceacco-Role1-nMbJhc4sQNLs
-    domainFilters: "wahajdxt"
   provider: "aws"
   domainFilters: "external.wahajedx.click"
